@@ -1,0 +1,19 @@
+Read n
+
+temp=0
+
+sum=0
+
+WHILE n>=0
+
+     sum=sum+((n%10)*(n%10)*(n%10))
+     n=n/10
+
+ENDWHILE
+
+IF sum==temp
+
+    write "Number is an armstrong number"
+
+ELSE 
+    write "Number is not an armstrong number"
